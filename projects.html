@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Durga Prasad | Projects</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="nav">
+      <div class="nav-left">
+        <div class="nav-logo">DP</div>
+        <div>
+          <div class="nav-title">Cheppala Durga Prasad</div>
+          <div class="nav-tagline">B.Tech CSE · Aspiring ML Engineer</div>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link nav-link-primary">Projects</a>
+        <a href="education.html" class="nav-link">Education</a>
+        <a href="certifications.html" class="nav-link">Certifications</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <main class="glass">
+      <div class="content">
+        <div class="page-heading">
+          <h1 class="page-title">Projects</h1>
+          <p class="page-subtitle">
+            A look at what I’ve built and what I’m currently working on. More will come as I progress in ML and web dev.
+          </p>
+        </div>
+
+        <section class="section-block">
+          <h2 class="section-title">Nurse Calling Machine</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-heading">
+                <div>
+                  <div class="timeline-title">Miniature IoT-Based Patient Care System</div>
+                  <div class="timeline-sub">Embedded · Hardware</div>
+                </div>
+                <div class="timeline-meta">Prototype</div>
+              </div>
+              <div class="timeline-body">
+                Designed a <span class="highlight">button-triggered communication system</span> that allows patients
+                to alert nurses in a simulated hospital environment.
+                <br><br>
+                The focus was on simple and reliable signalling – when a patient presses a button, it triggers a
+                clear indicator for the nurse, improving response time and attention.
+                <div class="pill-group">
+                  <span class="pill">IoT</span>
+                  <span class="pill">Embedded Systems</span>
+                  <span class="pill">Problem Solving</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-block">
+          <h2 class="section-title">Upcoming & Concept Projects</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-heading">
+                <div>
+                  <div class="timeline-title">ML-Powered Student Utilities</div>
+                  <div class="timeline-sub">Planned · ML + Web</div>
+                </div>
+                <div class="timeline-meta">In Ideation</div>
+              </div>
+              <div class="timeline-body">
+                Working on ideas for tools that help students manage:
+                <br>• Study plans and schedules using predictive patterns.
+                <br>• Performance tracking and suggestions using basic ML models.
+                <br><br>
+                The goal is to combine <span class="highlight">Python, ML and simple web interfaces</span> so that
+                others can actually use these tools.
+                <div class="pill-group">
+                  <span class="pill">Python</span>
+                  <span class="pill">Machine Learning</span>
+                  <span class="pill">Web</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-heading">
+                <div>
+                  <div class="timeline-title">Portfolio & Mini Web Apps</div>
+                  <div class="timeline-sub">Ongoing Practice</div>
+                </div>
+                <div class="timeline-meta">HTML · CSS · JS</div>
+              </div>
+              <div class="timeline-body">
+                Building small, focused web pages and utilities like:
+                <br>• Personal portfolio (this site).
+                <br>• Simple interactive pages to practise JS logic.
+                <br><br>
+                These projects help me get comfortable with front-end basics and UI thinking.
+                <div class="pill-group">
+                  <span class="pill">HTML</span>
+                  <span class="pill">CSS</span>
+                  <span class="pill">JavaScript</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          <span>© <span id="year"></span> Cheppala Durga Prasad</span>
+          <span>Projects · In progress</span>
+        </footer>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Durga Prasad | Education</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="nav">
+      <div class="nav-left">
+        <div class="nav-logo">DP</div>
+        <div>
+          <div class="nav-title">Cheppala Durga Prasad</div>
+          <div class="nav-tagline">B.Tech CSE · Aspiring ML Engineer</div>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="education.html" class="nav-link nav-link-primary">Education</a>
+        <a href="certifications.html" class="nav-link">Certifications</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <main class="glass">
+      <div class="content">
+        <div class="page-heading">
+          <h1 class="page-title">Education</h1>
+          <p class="page-subtitle">
+            My academic path so far and what I’ve focused on at each stage.
+          </p>
+        </div>
+
+        <section class="section-block">
+          <h2 class="section-title">Academic Timeline</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-heading">
+                <div>
+                  <div class="timeline-title">B.Tech in Computer Science & Engineering</div>
+                  <div class="timeline-sub">B V Raju Institute of Technology</div>
+                </div>
+                <div class="timeline-meta">2024 – 2028 · CGPA: 8.86</div>
+              </div>
+              <div class="timeline-body">
+                Building strong foundations in core CS:
+                <br>• Data Structures & Algorithms
+                <br>• Programming in C, Python and OOP concepts
+                <br>• Exploring Machine Learning, Deep Learning and modern technologies
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-heading">
+                <div>
+                  <div class="timeline-title">Intermediate (MPC)</div>
+                  <div class="timeline-sub">Chaithanya Junior College</div>
+                </div>
+                <div class="timeline-meta">2022 – 2024 · CGPA: 9.39</div>
+              </div>
+              <div class="timeline-body">
+                Focused on Mathematics, Physics and Chemistry which strengthened my analytical and quantitative skills.
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-heading">
+                <div>
+                  <div class="timeline-title">SSC</div>
+                  <div class="timeline-sub">Little Flower High School</div>
+                </div>
+                <div class="timeline-meta">2022 · CGPA: 9.8</div>
+              </div>
+              <div class="timeline-body">
+                Completed schooling with high academic performance.
+                Served as <span class="highlight">School Mathematics Club President</span>, leading peer problem-solving sessions.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          <span>© <span id="year"></span> Cheppala Durga Prasad</span>
+          <span>Education · Foundations</span>
+        </footer>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
